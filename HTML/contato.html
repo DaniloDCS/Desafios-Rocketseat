@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Danilo Costa">
+  <title>Contato</title>
+</head>
+
+<body>
+  <form action="#">
+    <fieldset>
+      <legend>Entre em contato</legend>
+      <div>
+        <label for="about">
+          <strong>* Assunto</strong>
+        </label>
+        <select required name="about" id="about">
+          <option value="">Suporte</option>
+          <option value="">Sugestão</option>
+          <option value="">Reclamação</option>
+          <option value="">Feedback</option>
+        </select>
+      </div>
+      <br>
+      <div>
+        <label>
+          <strong>* Seu nome completo</strong><br>
+          <input required type="text" name="name" id="name" placeholder="Ex: João Alves Oliveira">
+        </label>
+      </div>
+      <br>
+      <div>
+        <label>
+          <strong>* Seu email</strong><br>
+          <input required type="email" name="email" id="email" placeholder="Ex: user@gmial.com">
+        </label>
+      </div>
+      <br>
+      <div>
+        <label>
+          <strong>* Motivo do contato:</strong><br>
+          <textarea required rows="10" cols="40" name="message" id="message"
+            placeholder="Motivo do contato..."></textarea>
+        </label>
+      </div>
+      <br>
+      <div>
+        <input type="checkbox" name="newsletr" id="newsletr">
+        <label for="newsletr">
+          Aceito receber novidades por e-mail
+        </label>
+      </div>
+      <br>
+      <div>
+        <button type="submit">Enviar</button>
+      </div>
+    </fieldset>
+  </form>
+</body>
+
+</html>
